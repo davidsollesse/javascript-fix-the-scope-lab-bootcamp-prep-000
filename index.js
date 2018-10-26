@@ -20,6 +20,11 @@ function add2(n) {
 }
 //technically can move const two = 2 ahead and use 'two' instead.
 
+var funkyFunction = function() {
+  return function() {
+    return "FUNKY!"
+  }
+}
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
